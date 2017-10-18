@@ -19,6 +19,11 @@ display: block;
 margin: auto;
 }
 
+img.city {
+  height: 168px;
+  width: 168px;
+}
+
 /* flip the pane when hovered */
 .flip.hover .flipper, .flip.hover .flipper {
   transform: rotateY(180deg);
@@ -46,7 +51,7 @@ margin: auto;
 
 /* front pane, placed above back */
 .front {
-  z-index: 2;
+  z-index: 21
   transform: rotateY(0deg);
 }
 
